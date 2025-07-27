@@ -31,5 +31,3 @@ def send_mail(WORKFLOW_NAME, repo_name):
         print(f"error: {e}")
 
         send_mail(os.getenv ('WORKFLOW_NAME'), os.getenv('repor_name'), os.getenv('WORKFLOW_RUN_ID'))
-
-print("hello from github action!")
